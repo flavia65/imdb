@@ -1,0 +1,83 @@
+body {
+    background-color: rgba(0, 0, 0, 0.897);
+}
+
+.search-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.search-form input[type="text"] {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    flex-grow: 1;
+    margin-right: 0.5rem;
+}
+
+.search-form button[type="submit"]:hover {
+    background-color: cornflowerblue;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.search-form-container {
+    border: 2px solid #000000cc;
+    border-radius: 0.25rem;
+    padding: 1rem;
+    background-color: #000000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+table {
+    margin-left: 40px;
+    margin-right: 40px;
+    align-items: center;
+}
+
+table tr th {
+    background-color: black;
+    color:rgb(60, 159, 240);
+    align-items: center;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+table tr td {
+    border-bottom: 2px solid;
+    text-align: center;
+    color: #7cc6ff;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.App-title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(57, 159, 243);
+}
+
+.App-title h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 20px;
+    color: rgb(57, 159, 243);
+}
+
+footer {
+    background-color: #ffffff1e;
+    padding: 20px;
+
+}
+
+footer p {
+    color: rgba(240, 248, 255, 0.295);
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
